@@ -1,3 +1,7 @@
+/* much of this style sheet was created referencing https://www.w3schools.com/css/default.asp for style properties*/
+/* I have commented with reference to specific web pages where my structure was developed with inspiration from the site examples */
+
+/* general formatting for the entire site, with more specific changes below */
 body {
 	background-color: #393939;
 	color: white;
@@ -8,14 +12,17 @@ body {
 	margin-right: 150px;
 }
 
+/* I have adjusted my fonts to be sans-serif for the headers I am using (h1 to h3) */
 h1,h2,h3 {
 	font-family: Verdana, Helvetica, sans-serif;
 }
 
+/* to help separate the content from the navigation bar, I increased the left margin for non-image content */
 p,h1,h2,h3,table,#raskills,#tskills,#cskills {
 	margin-left: 20px;
 }
 
+/* adjustment to text width for all pages */
 p,#raskills,#tskills,#cskills {
 	max-width: 1100px;
 }
@@ -24,6 +31,7 @@ h3 {
 	margin-top: 40px;
 }
 
+/* NAVIGATION BAR - to be graded */
 /* for nav bar design, I referenced https://www.w3schools.com/css/css_navbar.asp and adjusted the format for my website */
 .navbarul {
 	background-color: #424242;
@@ -35,25 +43,23 @@ h3 {
 	padding: 0;
 	overflow: hidden;
 }
-
 .navbarli {
 	float: left;
 	display: block;
 	padding: 15px 20px;
 	text-align: center;
 }
-
 .navbartxt {
 	font-family: Verdana, Helvetica, sans-serif;
 	font-weight: bold;
 	color: orange;
 	text-decoration: none;
 }
-
 .navbaract {
 	text-decoration: underline;
 }
 
+/* style properties for the photo on my main page */
 #profilepic {
 	float: right;
 	padding: 5px 20px;
@@ -61,30 +67,29 @@ h3 {
 	height: 719px; 
 }
 
+
+/* TABLE(S) - to be graded */
+/* table design created with reference to https://www.w3schools.com/css/css_table.asp */
 table {
 	border-collapse: collapse;
 	border: 2px solid white;
 	margin-bottom: 50px;
 	max-width: 1100px;
 }
-
 th {
 	background-color: #505050;
 	font-family: Verdana, Helvetica, sans-serif;
 }
-
 th,td {
 	border: 1px solid white;
 	padding: 7px 5px;
 }
-
-/* table hover created from https://www.w3schools.com/css/css_table.asp with alteration to colour for my design */
 tr:hover {
 	background-color: #606060;
 }
 
-
-/* The following is my design for links, created with reference to https://www.w3schools.com/css/css_link.asp */
+/* EXTERNAL LINKS - to be graded */
+/* created with reference to https://www.w3schools.com/css/css_link.asp */
 .sitelinks:link {
 	color: orange;
 }
